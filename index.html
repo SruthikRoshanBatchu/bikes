@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">BikeShop</div>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#bikes">Bikes</a></li>
+            <li><a href="#cart">Cart</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h1>Ride the Future</h1>
+        <button class="cta">Shop Now</button>
+    </section>
+
+    <!-- Bikes Section -->
+    <section id="bikes">
+        <h2>Our Bikes</h2>
+        <div class="filter">
+            <label for="bike-type">Filter by Type:</label>
+            <select id="bike-type">
+                <option value="all">All</option>
+                <option value="road">Road</option>
+                <option value="mountain">Mountain</option>
+                <option value="hybrid">Hybrid</option>
+            </select>
+        </div>
+        <div class="bike-grid">
+            <div class="bike-card">
+                <img src="kawasaki-ninja-zx-10r674008194e755.avif" alt="Bike" class="bike-image">
+                <h3>Road Racer</h3>
+                <p>$599</p>
+                <p class="description">Lightweight and fast for city rides.</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="bike-card">
+                <img src="r15-v466e5433ef20f5.avif" alt="Bike" class="bike-image">
+                <h3>Mountain Beast</h3>
+                <p>$799</p>
+                <p class="description">Built for rugged trails and hills.</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="bike-card">
+                <img src="keeway-select-model-glossy-grey-1661846900373.gif" alt="Bike" class="bike-image">
+                <h3>Hybrid Cruiser</h3>
+                <p>$499</p>
+                <p class="description">Versatile for both roads and paths.</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="bike-card">
+                <img src="ducati-panigale-v4.avif" alt="Bike" class="bike-image">
+                <h3>Ducati Panigale V4</h3>
+                <p>$1,200</p>
+                <p class="description">A powerful superbike for ultimate speed.</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="bike-card">
+                <img src="royal-enfield-classic-350.avif" alt="Bike" class="bike-image">
+                <h3>Royal Enfield Classic 350</h3>
+                <p>$650</p>
+                <p class="description">A stylish and comfortable cruiser.</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="bike-card">
+                <img src="yamaha-mt-15.avif" alt="Bike" class="bike-image">
+                <h3>Yamaha MT-15</h3>
+                <p>$750</p>
+                <p class="description">A streetfighter designed for agility.</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Section -->
+    <section id="cart">
+        <h2>Your Cart</h2>
+        <div id="cart-items">
+            <p>Your cart is empty.</p>
+        </div>
+        <button id="checkout">Checkout</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 BikeShop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
